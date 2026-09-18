@@ -22,11 +22,26 @@ const FONT = `font-family="'Segoe UI', Ubuntu, 'Helvetica Neue', sans-serif"`;
 const esc = (s) => String(s).replace(/[&<>"']/g, (c) => `&#${c.charCodeAt(0)};`);
 const fmt = (n) => (n >= 1000 ? (n / 1000).toFixed(1).replace(/\.0$/, "") + "k" : String(n));
 
+// Soft entrance animations. They play inside the SVG, so they work on GitHub even though README CSS is stripped.
+const STYLE = `<style>
+.in{opacity:0;animation:in 1s ease-out forwards}
+@keyframes in{from{opacity:0;transform:translateY(6px)}to{opacity:1;transform:none}}
+.grow{transform-box:fill-box;transform-origin:left center;transform:scaleX(0);animation:grow 1.6s cubic-bezier(.2,.7,.2,1) .5s forwards}
+@keyframes grow{to{transform:scaleX(1)}}
+.draw{stroke-dasharray:1;stroke-dashoffset:1;animation:draw 2.6s ease-in-out .4s forwards}
+@keyframes draw{to{stroke-dashoffset:0}}
+@media (prefers-reduced-motion:reduce){.in,.grow,.draw{animation:none;opacity:1;transform:none;stroke-dashoffset:0}}
+</style>`;
+const fade = (delay, content) => `<g class="in" style="animation-delay:${delay}s">${content}</g>`;
+
 const frame = (w, h, title, body) => `<svg xmlns="http://www.w3.org/2000/svg" width="${w}" height="${h}" viewBox="0 0 ${w} ${h}">
+${STYLE}
 <defs><linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="${C.bgA}"/><stop offset="1" stop-color="${C.bgB}"/></linearGradient></defs>
+<g class="in">
 <rect x=".5" y=".5" width="${w - 1}" height="${h - 1}" rx="12" fill="url(#bg)" stroke="${C.border}"/>
 <text x="24" y="36" ${FONT} font-size="15" font-weight="600" fill="${C.title}">${esc(title)}</text>
 ${body}
+</g>
 </svg>`;
 
 async function fetchData() {
@@ -75,9 +90,9 @@ function statsCard(u) {
   const body = rows
     .map(([label, value], i) => {
       const y = 68 + i * 24;
-      return `<circle cx="28" cy="${y - 4}" r="3" fill="${C.shades[i % 3]}"/>
+      return fade(0.4 + i * 0.18, `<circle cx="28" cy="${y - 4}" r="3" fill="${C.shades[i % 3]}"/>
 <text x="42" y="${y}" ${FONT} font-size="13" fill="${C.text}">${label}</text>
-<text x="336" y="${y}" ${FONT} font-size="13" font-weight="600" fill="${C.bright}" text-anchor="end">${fmt(value)}</text>`;
+<text x="336" y="${y}" ${FONT} font-size="13" font-weight="600" fill="${C.bright}" text-anchor="end">${fmt(value)}</text>`);
     })
     .join("\n");
   return frame(360, 210, "stats", body);
@@ -104,14 +119,14 @@ function langsCard(u) {
     .map(([name, size], i) => {
       const col = i % 2, row = Math.floor(i / 2);
       const lx = 24 + col * 160, ly = 92 + row * 26;
-      return `<circle cx="${lx + 4}" cy="${ly - 4}" r="4" fill="${C.shades[i]}"/>
+      return fade(0.6 + i * 0.18, `<circle cx="${lx + 4}" cy="${ly - 4}" r="4" fill="${C.shades[i]}"/>
 <text x="${lx + 14}" y="${ly}" ${FONT} font-size="13" fill="${C.text}">${esc(name)}</text>
-<text x="${lx + 146}" y="${ly}" ${FONT} font-size="12" fill="${C.muted}" text-anchor="end">${((size / total) * 100).toFixed(1)}%</text>`;
+<text x="${lx + 146}" y="${ly}" ${FONT} font-size="12" fill="${C.muted}" text-anchor="end">${((size / total) * 100).toFixed(1)}%</text>`);
     })
     .join("\n");
   const body = `<clipPath id="bar"><rect x="24" y="54" width="${barW}" height="8" rx="4"/></clipPath>
 <rect x="24" y="54" width="${barW}" height="8" rx="4" fill="${C.border}"/>
-<g clip-path="url(#bar)">${bar}</g>
+<g clip-path="url(#bar)"><g class="grow">${bar}</g></g>
 ${legend}`;
   return frame(360, 210, "top languages", body);
 }
@@ -141,10 +156,10 @@ function activityCard(u) {
     })
     .join("\n");
   const body = `<defs><linearGradient id="fade" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="${C.accent}" stop-opacity=".35"/><stop offset="1" stop-color="${C.accent}" stop-opacity="0"/></linearGradient></defs>
-${grid}
-<path d="${area}" fill="url(#fade)"/>
-<path d="${line}" fill="none" stroke="${C.accent}" stroke-width="2" stroke-linejoin="round" stroke-linecap="round"/>
-${labels}`;
+${fade(0.3, grid)}
+${fade(1.6, `<path d="${area}" fill="url(#fade)"/>`)}
+<path class="draw" pathLength="1" d="${line}" fill="none" stroke="${C.accent}" stroke-width="2" stroke-linejoin="round" stroke-linecap="round"/>
+${fade(0.5, labels)}`;
   return frame(W, H, "last 60 days", body);
 }
 
