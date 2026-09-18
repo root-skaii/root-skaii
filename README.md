@@ -13,7 +13,7 @@
 <br/>
 
 <p align="center">
-  i spend most of my time on reverse engineering and game modding.<br/>
+  i spend most of my time on nothing, sometimes I do stuff<br/>
   favorite ai is<br/>
   <img src="assets/claude.svg" height="13" alt="" /> Claude
 </p>
