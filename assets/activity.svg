@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="760" height="240" viewBox="0 0 760 240">
+<defs><linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#1b2042"/><stop offset="1" stop-color="#11152b"/></linearGradient></defs>
+<rect x=".5" y=".5" width="759" height="239" rx="12" fill="url(#bg)" stroke="#2e3360"/>
+<text x="24" y="36" font-family="'Segoe UI', Ubuntu, 'Helvetica Neue', sans-serif" font-size="15" font-weight="600" fill="#c9c5f5">last 60 days</text>
+<defs><linearGradient id="fade" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#8f8ae0" stop-opacity=".35"/><stop offset="1" stop-color="#8f8ae0" stop-opacity="0"/></linearGradient></defs>
+<line x1="48" x2="736" y1="200" y2="200" stroke="#2e3360" stroke-dasharray="3 5"/>
+<text x="38" y="204" font-family="'Segoe UI', Ubuntu, 'Helvetica Neue', sans-serif" font-size="11" fill="#6f7599" text-anchor="end">0</text>
+<line x1="48" x2="736" y1="130" y2="130" stroke="#2e3360" stroke-dasharray="3 5"/>
+<text x="38" y="134" font-family="'Segoe UI', Ubuntu, 'Helvetica Neue', sans-serif" font-size="11" fill="#6f7599" text-anchor="end">3</text>
+<line x1="48" x2="736" y1="60" y2="60" stroke="#2e3360" stroke-dasharray="3 5"/>
+<text x="38" y="64" font-family="'Segoe UI', Ubuntu, 'Helvetica Neue', sans-serif" font-size="11" fill="#6f7599" text-anchor="end">6</text>
+<path d="M48.0 200.0 L59.7 200.0 L71.3 153.3 L83.0 153.3 L94.6 153.3 L106.3 176.7 L118.0 83.3 L129.6 106.7 L141.3 130.0 L152.9 130.0 L164.6 60.0 L176.3 83.3 L187.9 106.7 L199.6 130.0 L211.3 83.3 L222.9 106.7 L234.6 130.0 L246.2 176.7 L257.9 106.7 L269.6 153.3 L281.2 200.0 L292.9 200.0 L304.5 176.7 L316.2 200.0 L327.9 200.0 L339.5 200.0 L351.2 200.0 L362.8 200.0 L374.5 200.0 L386.2 200.0 L397.8 176.7 L409.5 200.0 L421.2 200.0 L432.8 200.0 L444.5 130.0 L456.1 153.3 L467.8 153.3 L479.5 176.7 L491.1 83.3 L502.8 106.7 L514.4 106.7 L526.1 130.0 L537.8 60.0 L549.4 83.3 L561.1 106.7 L572.7 130.0 L584.4 83.3 L596.1 106.7 L607.7 153.3 L619.4 176.7 L631.1 130.0 L642.7 153.3 L654.4 200.0 L666.0 200.0 L677.7 176.7 L689.4 200.0 L701.0 200.0 L712.7 200.0 L724.3 200.0 L736.0 200.0 L736.0 200 L48 200 Z" fill="url(#fade)"/>
+<path d="M48.0 200.0 L59.7 200.0 L71.3 153.3 L83.0 153.3 L94.6 153.3 L106.3 176.7 L118.0 83.3 L129.6 106.7 L141.3 130.0 L152.9 130.0 L164.6 60.0 L176.3 83.3 L187.9 106.7 L199.6 130.0 L211.3 83.3 L222.9 106.7 L234.6 130.0 L246.2 176.7 L257.9 106.7 L269.6 153.3 L281.2 200.0 L292.9 200.0 L304.5 176.7 L316.2 200.0 L327.9 200.0 L339.5 200.0 L351.2 200.0 L362.8 200.0 L374.5 200.0 L386.2 200.0 L397.8 176.7 L409.5 200.0 L421.2 200.0 L432.8 200.0 L444.5 130.0 L456.1 153.3 L467.8 153.3 L479.5 176.7 L491.1 83.3 L502.8 106.7 L514.4 106.7 L526.1 130.0 L537.8 60.0 L549.4 83.3 L561.1 106.7 L572.7 130.0 L584.4 83.3 L596.1 106.7 L607.7 153.3 L619.4 176.7 L631.1 130.0 L642.7 153.3 L654.4 200.0 L666.0 200.0 L677.7 176.7 L689.4 200.0 L701.0 200.0 L712.7 200.0 L724.3 200.0 L736.0 200.0" fill="none" stroke="#8f8ae0" stroke-width="2" stroke-linejoin="round" stroke-linecap="round"/>
+<text x="48" y="226" font-family="'Segoe UI', Ubuntu, 'Helvetica Neue', sans-serif" font-size="11" fill="#6f7599" text-anchor="start">nov 8</text>
+<text x="397.8305084745762" y="226" font-family="'Segoe UI', Ubuntu, 'Helvetica Neue', sans-serif" font-size="11" fill="#6f7599" text-anchor="middle">dec 8</text>
+<text x="736" y="226" font-family="'Segoe UI', Ubuntu, 'Helvetica Neue', sans-serif" font-size="11" fill="#6f7599" text-anchor="end">jan 6</text>
+</svg>
