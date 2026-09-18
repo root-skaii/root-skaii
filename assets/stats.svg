@@ -14,21 +14,21 @@
 <text x="24" y="36" font-family="'Segoe UI', Ubuntu, 'Helvetica Neue', sans-serif" font-size="15" font-weight="600" fill="#c9c5f5">stats</text>
 <g class="in" style="animation-delay:0.4s"><circle cx="28" cy="64" r="3" fill="#b9b4ee"/>
 <text x="42" y="68" font-family="'Segoe UI', Ubuntu, 'Helvetica Neue', sans-serif" font-size="13" fill="#aab0cc">contributions this year</text>
-<text x="336" y="68" font-family="'Segoe UI', Ubuntu, 'Helvetica Neue', sans-serif" font-size="13" font-weight="600" fill="#e6e9f5" text-anchor="end">260</text></g>
+<text x="336" y="68" font-family="'Segoe UI', Ubuntu, 'Helvetica Neue', sans-serif" font-size="13" font-weight="600" fill="#e6e9f5" text-anchor="end">161</text></g>
 <g class="in" style="animation-delay:0.5800000000000001s"><circle cx="28" cy="88" r="3" fill="#8f8ae0"/>
 <text x="42" y="92" font-family="'Segoe UI', Ubuntu, 'Helvetica Neue', sans-serif" font-size="13" fill="#aab0cc">commits this year</text>
-<text x="336" y="92" font-family="'Segoe UI', Ubuntu, 'Helvetica Neue', sans-serif" font-size="13" font-weight="600" fill="#e6e9f5" text-anchor="end">212</text></g>
+<text x="336" y="92" font-family="'Segoe UI', Ubuntu, 'Helvetica Neue', sans-serif" font-size="13" font-weight="600" fill="#e6e9f5" text-anchor="end">155</text></g>
 <g class="in" style="animation-delay:0.76s"><circle cx="28" cy="112" r="3" fill="#6c74c9"/>
 <text x="42" y="116" font-family="'Segoe UI', Ubuntu, 'Helvetica Neue', sans-serif" font-size="13" fill="#aab0cc">pull requests</text>
-<text x="336" y="116" font-family="'Segoe UI', Ubuntu, 'Helvetica Neue', sans-serif" font-size="13" font-weight="600" fill="#e6e9f5" text-anchor="end">4</text></g>
+<text x="336" y="116" font-family="'Segoe UI', Ubuntu, 'Helvetica Neue', sans-serif" font-size="13" font-weight="600" fill="#e6e9f5" text-anchor="end">0</text></g>
 <g class="in" style="animation-delay:0.9400000000000001s"><circle cx="28" cy="136" r="3" fill="#b9b4ee"/>
 <text x="42" y="140" font-family="'Segoe UI', Ubuntu, 'Helvetica Neue', sans-serif" font-size="13" fill="#aab0cc">issues</text>
-<text x="336" y="140" font-family="'Segoe UI', Ubuntu, 'Helvetica Neue', sans-serif" font-size="13" font-weight="600" fill="#e6e9f5" text-anchor="end">2</text></g>
+<text x="336" y="140" font-family="'Segoe UI', Ubuntu, 'Helvetica Neue', sans-serif" font-size="13" font-weight="600" fill="#e6e9f5" text-anchor="end">5</text></g>
 <g class="in" style="animation-delay:1.12s"><circle cx="28" cy="160" r="3" fill="#8f8ae0"/>
 <text x="42" y="164" font-family="'Segoe UI', Ubuntu, 'Helvetica Neue', sans-serif" font-size="13" fill="#aab0cc">stars earned</text>
 <text x="336" y="164" font-family="'Segoe UI', Ubuntu, 'Helvetica Neue', sans-serif" font-size="13" font-weight="600" fill="#e6e9f5" text-anchor="end">1</text></g>
 <g class="in" style="animation-delay:1.2999999999999998s"><circle cx="28" cy="184" r="3" fill="#6c74c9"/>
 <text x="42" y="188" font-family="'Segoe UI', Ubuntu, 'Helvetica Neue', sans-serif" font-size="13" fill="#aab0cc">repositories</text>
-<text x="336" y="188" font-family="'Segoe UI', Ubuntu, 'Helvetica Neue', sans-serif" font-size="13" font-weight="600" fill="#e6e9f5" text-anchor="end">5</text></g>
+<text x="336" y="188" font-family="'Segoe UI', Ubuntu, 'Helvetica Neue', sans-serif" font-size="13" font-weight="600" fill="#e6e9f5" text-anchor="end">6</text></g>
 </g>
 </svg>
