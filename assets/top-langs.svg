@@ -14,22 +14,22 @@
 <text x="24" y="36" font-family="'Segoe UI', Ubuntu, 'Helvetica Neue', sans-serif" font-size="15" font-weight="600" fill="#c9c5f5">top languages</text>
 <clipPath id="bar"><rect x="24" y="54" width="312" height="8" rx="4"/></clipPath>
 <rect x="24" y="54" width="312" height="8" rx="4" fill="#2e3360"/>
-<g clip-path="url(#bar)"><g class="grow"><rect x="24" y="54" width="299.8785170459529" height="8" fill="#b9b4ee"/><rect x="323.8785170459529" y="54" width="4.200984793748773" height="8" fill="#8f8ae0"/><rect x="328.07950183970166" y="54" width="2.785888799328436" height="8" fill="#6c74c9"/><rect x="330.8653906390301" y="54" width="2" height="8" fill="#4f5aa8"/><rect x="332.62937425085937" y="54" width="2" height="8" fill="#3a4280"/><rect x="334.11483413450503" y="54" width="2" height="8" fill="#2c3263"/></g></g>
+<g clip-path="url(#bar)"><g class="grow"><rect x="24" y="54" width="299.2898139930415" height="8" fill="#b9b4ee"/><rect x="323.2898139930415" y="54" width="5.299441358792041" height="8" fill="#8f8ae0"/><rect x="328.5892553518335" y="54" width="2.606592425397684" height="8" fill="#6c74c9"/><rect x="331.1958477772312" y="54" width="2" height="8" fill="#4f5aa8"/><rect x="332.8463035751181" y="54" width="2" height="8" fill="#3a4280"/><rect x="334.2361610891281" y="54" width="2" height="8" fill="#2c3263"/></g></g>
 <g class="in" style="animation-delay:0.6s"><circle cx="28" cy="88" r="4" fill="#b9b4ee"/>
 <text x="38" y="92" font-family="'Segoe UI', Ubuntu, 'Helvetica Neue', sans-serif" font-size="13" fill="#aab0cc">C++</text>
-<text x="170" y="92" font-family="'Segoe UI', Ubuntu, 'Helvetica Neue', sans-serif" font-size="12" fill="#6f7599" text-anchor="end">96.1%</text></g>
+<text x="170" y="92" font-family="'Segoe UI', Ubuntu, 'Helvetica Neue', sans-serif" font-size="12" fill="#6f7599" text-anchor="end">95.9%</text></g>
 <g class="in" style="animation-delay:0.78s"><circle cx="188" cy="88" r="4" fill="#8f8ae0"/>
 <text x="198" y="92" font-family="'Segoe UI', Ubuntu, 'Helvetica Neue', sans-serif" font-size="13" fill="#aab0cc">CMake</text>
-<text x="330" y="92" font-family="'Segoe UI', Ubuntu, 'Helvetica Neue', sans-serif" font-size="12" fill="#6f7599" text-anchor="end">1.3%</text></g>
+<text x="330" y="92" font-family="'Segoe UI', Ubuntu, 'Helvetica Neue', sans-serif" font-size="12" fill="#6f7599" text-anchor="end">1.7%</text></g>
 <g class="in" style="animation-delay:0.96s"><circle cx="28" cy="114" r="4" fill="#6c74c9"/>
 <text x="38" y="118" font-family="'Segoe UI', Ubuntu, 'Helvetica Neue', sans-serif" font-size="13" fill="#aab0cc">C#</text>
-<text x="170" y="118" font-family="'Segoe UI', Ubuntu, 'Helvetica Neue', sans-serif" font-size="12" fill="#6f7599" text-anchor="end">0.9%</text></g>
+<text x="170" y="118" font-family="'Segoe UI', Ubuntu, 'Helvetica Neue', sans-serif" font-size="12" fill="#6f7599" text-anchor="end">0.8%</text></g>
 <g class="in" style="animation-delay:1.1400000000000001s"><circle cx="188" cy="114" r="4" fill="#4f5aa8"/>
 <text x="198" y="118" font-family="'Segoe UI', Ubuntu, 'Helvetica Neue', sans-serif" font-size="13" fill="#aab0cc">HLSL</text>
-<text x="330" y="118" font-family="'Segoe UI', Ubuntu, 'Helvetica Neue', sans-serif" font-size="12" fill="#6f7599" text-anchor="end">0.6%</text></g>
+<text x="330" y="118" font-family="'Segoe UI', Ubuntu, 'Helvetica Neue', sans-serif" font-size="12" fill="#6f7599" text-anchor="end">0.5%</text></g>
 <g class="in" style="animation-delay:1.3199999999999998s"><circle cx="28" cy="140" r="4" fill="#3a4280"/>
 <text x="38" y="144" font-family="'Segoe UI', Ubuntu, 'Helvetica Neue', sans-serif" font-size="13" fill="#aab0cc">JavaScript</text>
-<text x="170" y="144" font-family="'Segoe UI', Ubuntu, 'Helvetica Neue', sans-serif" font-size="12" fill="#6f7599" text-anchor="end">0.5%</text></g>
+<text x="170" y="144" font-family="'Segoe UI', Ubuntu, 'Helvetica Neue', sans-serif" font-size="12" fill="#6f7599" text-anchor="end">0.4%</text></g>
 <g class="in" style="animation-delay:1.5s"><circle cx="188" cy="140" r="4" fill="#2c3263"/>
 <text x="198" y="144" font-family="'Segoe UI', Ubuntu, 'Helvetica Neue', sans-serif" font-size="13" fill="#aab0cc">C</text>
 <text x="330" y="144" font-family="'Segoe UI', Ubuntu, 'Helvetica Neue', sans-serif" font-size="12" fill="#6f7599" text-anchor="end">0.3%</text></g>
