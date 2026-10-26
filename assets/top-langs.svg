@@ -14,7 +14,7 @@
 <text x="24" y="36" font-family="'Segoe UI', Ubuntu, 'Helvetica Neue', sans-serif" font-size="15" font-weight="600" fill="#c9c5f5">top languages</text>
 <clipPath id="bar"><rect x="24" y="54" width="312" height="8" rx="4"/></clipPath>
 <rect x="24" y="54" width="312" height="8" rx="4" fill="#2e3360"/>
-<g clip-path="url(#bar)"><g class="grow"><rect x="24" y="54" width="297.70106130062373" height="8" fill="#b9b4ee"/><rect x="321.70106130062373" y="54" width="5.144673033231498" height="8" fill="#8f8ae0"/><rect x="326.8457343338552" y="54" width="3.4651100175075493" height="8" fill="#6c74c9"/><rect x="330.31084435136273" y="54" width="2.3062978340512537" height="8" fill="#4f5aa8"/><rect x="332.61714218541397" y="54" width="2" height="8" fill="#3a4280"/><rect x="334.0774558864649" y="54" width="2" height="8" fill="#2c3263"/></g></g>
+<g clip-path="url(#bar)"><g class="grow"><rect x="24" y="54" width="297.7867219362172" height="8" fill="#b9b4ee"/><rect x="321.7867219362172" y="54" width="5.101825232332686" height="8" fill="#8f8ae0"/><rect x="326.88854716854985" y="54" width="3.436250585010363" height="8" fill="#6c74c9"/><rect x="330.32479775356023" y="54" width="2.2870896570167814" height="8" fill="#4f5aa8"/><rect x="332.611887410577" y="54" width="2" height="8" fill="#3a4280"/><rect x="334.09346794143215" y="54" width="2" height="8" fill="#2c3263"/></g></g>
 <g class="in" style="animation-delay:0.6s"><circle cx="28" cy="88" r="4" fill="#b9b4ee"/>
 <text x="38" y="92" font-family="'Segoe UI', Ubuntu, 'Helvetica Neue', sans-serif" font-size="13" fill="#aab0cc">C++</text>
 <text x="170" y="92" font-family="'Segoe UI', Ubuntu, 'Helvetica Neue', sans-serif" font-size="12" fill="#6f7599" text-anchor="end">95.4%</text></g>
